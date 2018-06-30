@@ -7,7 +7,7 @@ Relation Networks (RNs) is employed to associate source words with each other so
 
 ### Runtime Environment
 This system has been tested in the following environment.
-+ 64bit-Ubuntu
++ Ubuntu 16.04.1 LTS 64 bits
 + Python 2.7
 + Pytorch 0.3.1
 + Dependency
