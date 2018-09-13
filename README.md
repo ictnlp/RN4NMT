@@ -3,7 +3,7 @@
 
 Relation Networks (RNs) is employed to associate source words with each other so that the source representation can memorize all the source words and also contain the relationship between them. Then the source representations and all the relations are fed into the attention component together while decoding, with the main encoder-decoder Neural Machine translation (NMT) architecture unchanged.
 
-> Wen Zhang, Jiawei Hu, Yang Feng and Qun Liu. Refining Source Representations with Relation Networks for Neural Machine Translation. In Proceedings of Coling, 2018. [\[paper\]](https://arxiv.org/pdf/1805.11154.pdf)[\[code\]](https://github.com/ictnlp/RN4NMT)
+> Wen Zhang, Jiawei Hu, Yang Feng and Qun Liu. Refining Source Representations with Relation Networks for Neural Machine Translation. In Proceedings of Coling, 2018. [\[paper\]](http://www.aclweb.org/anthology/C18-1110)[\[code\]](https://github.com/ictnlp/RN4NMT)
 
 ### Runtime Environment
 This system has been tested in the following environment.
@@ -11,7 +11,8 @@ This system has been tested in the following environment.
 + Python 2.7
 + Pytorch 0.3.1
 + Dependency
-	+ download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip)
+	%+ download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip)
+	+ download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2018-02-27.zip)
 	+ unzip
 	+ ``export CLASSPATH="./stanford-parser-full-2017-06-09/stanford-parser.jar:$CLASSPATH"``
 
