@@ -11,7 +11,7 @@ This system has been tested in the following environment.
 + Python 2.7
 + Pytorch 0.3.1
 + Dependency
-	%+ download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip)
+	<!-- + download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip) -->
 	+ download [Standford parser Version 3.8.0](https://nlp.stanford.edu/software/stanford-parser-full-2018-02-27.zip)
 	+ unzip
 	+ ``export CLASSPATH="./stanford-parser-full-2017-06-09/stanford-parser.jar:$CLASSPATH"``
